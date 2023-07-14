@@ -1,0 +1,361 @@
+[alt="www.000webhost.com"] {
+    display: none;
+}
+
+body {
+    background-color: #101010;
+}
+
+/* BARRA SOCIALES */
+
+.redes {
+    position: fixed;
+    right: 10px;
+    top: 32vh;
+    z-index: 5;
+    background-color: #1f000d;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+.icon svg {
+    width: 30px;
+    margin: 5px 0px;
+}
+
+.container-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+/* BARRA SOCIALES END */
+
+/* HEADER */
+
+.header {
+    position: block;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+
+.container-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6px 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+.container-header h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: 10px 10px 25px 10px;
+}
+
+.logo {
+    width: 150px; height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    position: relative;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 0 3px #ff5ac2;
+    animation: borderAnimation 2100ms infinite ease-in-out;
+}
+
+@keyframes borderAnimation {
+    0% {
+        box-shadow: inset 0 0 0 3px #ff5ac2;
+    }
+    33% {
+        box-shadow: inset 0 0 0 1px #ff5ac2;
+    }
+    66% {
+        box-shadow: inset 0 0 0 5px #ff5ac2;
+    }
+    75% {
+        box-shadow: inset 0 0 0 3px #ff5ac2;
+    }
+}
+
+/* HEADER-END */
+
+/* MAIN */
+
+/* HOME */
+
+.selection-home {
+    position: relative;
+    min-width: 100%;
+    height: 80vh;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #340f34;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.btn-menu {
+    position: relative;
+    top: 400px;
+    color: #fff;
+    padding: 10px 70px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* HOME END*/
+
+/* DESCRIPTION*/
+
+.selection-description {
+    width: 100%;
+    height: auto;
+    background-color: #c3008f;
+    padding: 20px 40px;
+}
+
+.container-description {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+.container-description h2 {
+    font-size: 35px;
+}
+
+.container-description p {
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.text-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 6px 40px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    width: 700px;
+}
+
+.img-logo {
+    width: 220px; height: auto;
+    min-width: 160px;
+    margin: 0px 30px;
+}
+
+/* DESCRIPTION END*/
+
+/* TOPCOCKTAILS*/
+
+.selection-topcocktails {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+    background-color: #101010;
+    padding: 30px 0px;
+}
+
+.container-topcocktails {
+    width: 80vw;
+    min-width: 280px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.container-topcocktails h3{
+    font-size: 30px;
+    margin: 0px 0px;
+    margin-top: 10px;
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-shadow: 0px 0px 20px #ff00dd;
+}
+
+/* CSS DEL CARRUSEL EN EL ARCHIVO csscarrusel.css */
+/* TOPCOCKTAILS END*/
+
+/* PROMOS*/
+
+.selection-promos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 30px 40px;
+
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-shadow: 0px 0px 20px #ff00dd;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container-promos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    padding: 30px 40px;
+}
+
+.imgpromo {
+    width: 300px;
+    margin: 30px 10px;
+    min-width: 290px;
+    border: 3px solid #2efff5;
+    padding: 5px;
+}
+
+.promo1 {
+    height: 520px;
+}
+
+.promo2 {
+    height: 570px;
+}
+
+.promo3 {
+    height: 620px;
+}
+
+.imgpromo:hover {
+    opacity: 0.85;
+    border: 3px solid #f700ff;
+    transition: .5s ease;
+}
+
+.imgpromo img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.mancha {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(-1);
+    filter: FlipH;
+    z-index: -1;
+}
+
+/* PROMOS END*/
+
+/* MAIN END*/
+
+/* FOOTER */
+
+/* CSS DEL FOOTER EN EL ARCHIVO cssfooter.css */
+
+/* FOOTER END*/
+
+.extra {
+    display: none;
+}
+
+@media screen and (max-width: 550px) {
+    .redes {
+        position: fixed;
+        right: 10px;
+        top: auto;
+        bottom: 10px;
+        z-index: 5;
+        background-color: #1f000d;
+        border-radius: 30px;
+        padding: 5px 10px;
+    }
+    
+    .icon svg {
+        width: 25px;
+        height: 30px;
+        margin: 0px 15px;
+    }
+    
+    .container-icon {
+        flex-direction: row;
+    }
+
+    .extra {
+        display: block;
+        width: 100%;
+        height: 60px;
+        background-color: #1f000d;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .mancha {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .container-header {
+        flex-direction: column;
+    }
+}

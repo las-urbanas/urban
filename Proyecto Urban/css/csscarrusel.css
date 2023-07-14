@@ -1,0 +1,107 @@
+.container-carrusel {
+    width: 100%;
+    height: auto;
+    /* border: blue solid 5px; */
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+.slick-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    max-width: 90vw;
+    overflow: hidden;
+    
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: 0.5 ease-in-out;
+}
+
+.slick {
+    position: relative;
+    width: 270px;
+    padding: 0px 20px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    
+}
+
+.slick h4 {
+    position: absolute;
+    z-index: 1;
+    font-size: 2px;
+    line-height: 25px;
+    color: #fff;
+    padding: 15px;
+    cursor: default;
+    text-shadow: 2px 2px 1px #ff00dd;
+}
+
+.slick h4 small{
+    font-size: 17px;
+    display: block;
+    cursor: default;
+}
+
+.slick a img {
+    cursor: default;
+    object-fit: cover;
+    border-radius: 4px;
+    width: 100%;
+    height: 300px;
+    border: 3px solid #2efff5;
+}
+
+.slick a img:hover {
+    opacity: 0.85;
+    border: 3px solid #f700ff;
+    transition: .5s ease;
+}
+
+/* Botones */	
+
+.slick-arrow {
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 #ffffff80;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+.slick-arrow svg {
+    width: 12px;
+    height: 100%;
+    color: #690069b3;
+}
+
+.slick-prev {
+    left: 2px;
+}
+
+.slick-next {
+    right: 2px;
+}
+
+#track {
+    transition: left 0.3s ease;
+}

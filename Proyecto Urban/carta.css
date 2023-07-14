@@ -1,0 +1,54 @@
+
+*{
+    margin:0; 
+    padding:0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+ }
+.videoloco{
+    width:100%;
+    height:100vh; 
+}
+.videoloco video{
+    width: 100%;
+    position:fixed; 
+
+}
+
+.men {
+    position:absolute;
+    top: 80px;
+    line-height: 2.0;
+} 
+.men .primero{
+    width: 60%;
+    height: 60%;
+    margin-left: 300px; 
+}
+.men .segundo{
+    width: 60%;
+    height: 60%;
+    margin-left: 300px; 
+}
+
+.botoncito{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+
+  
+}
+
+.material-symbols-outlined {
+    position: fixed;
+    top: 15px;
+    left: 40px;
+    font-weight: 50px;
+    z-index: 10;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  
+}
+

@@ -4,6 +4,7 @@
     padding:0;
     box-sizing: border-box; 
     font-family: sans-serif;
+    background-color: black;
  }
 .videoloco{
     width:100%;
@@ -33,7 +34,7 @@
 
 .botoncito{
     font-size: 60px;
-    color: rgb(255, 255, 255);
+    color: rgb(3, 219, 247);
 
   
 }
